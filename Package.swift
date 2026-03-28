@@ -8,6 +8,7 @@ let package = Package(
 	products: [
 		.library(name: "Playwright", targets: ["Playwright"]),
 		.library(name: "PlaywrightTesting", targets: ["PlaywrightTesting"]),
+		.plugin(name: "PlaywrightDriverPlugin", targets: ["PlaywrightDriverPlugin"]),
 	],
 	dependencies: [
 		.package(url: "https://github.com/apple/swift-argument-parser", from: "1.3.0"),
